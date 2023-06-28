@@ -11,12 +11,14 @@ import { ColourContext } from './LeftSideNav';
 const Home = () => {
     const {colour}= useContext(ColourContext)
     console.log(colour);
+
+   
     return (
         <div className='font-serif flex items-center justify-center p-12'>
             <div className='w-1/2'>
-                <h2 className="text-3xl">Hi I'M</h2> 
-                <h3 style={{color:`${colour}`}} className={`text-5xl uppercase`}>Yeasin Emtiag</h3>
-                 <p> <TypeAnimation
+                <h2 style={{color:`${colour}`}} className="text-3xl">Hi <span className='text-white'>I'M</span> </h2> 
+                <h3  className={`text-5xl uppercase`}>Yeasin Emtiag</h3>
+                 <p style={{color:`${colour}`}}> <TypeAnimation
       sequence={[
         // Same substring at the start will only be typed out once, initially
         'I AM A MERN STACK DEVELOPER',

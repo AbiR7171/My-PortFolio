@@ -1,5 +1,5 @@
 
-import React, { createContext, useEffect, useState } from 'react';
+import React, { createContext, useEffect, useReducer, useState } from 'react';
 import { MdOutlineSettingsSuggest } from "react-icons/md";
 import blue from "../assets/Color/blue.png"
 import blueviolet from "../assets/Color/blueviolet.png"
@@ -19,10 +19,22 @@ export const ColourContext = createContext()
 const LeftSideNav = ({children}) => {
 
     const[theme, setTheme]=useState(localStorage.getItem("theme") ? localStorage.getItem("theme"): "dark")
-    const[colour, setColour]=useState("#FF3CAC")
 
+    const[colour, setColour]=useState(localStorage.getItem("color")? localStorage.getItem("color") : "#FF3CAC")
+    console.log(colour);
+    const[show, setShow]=useState(false)
+   
+
+
+
+
+
+ 
     const handleColour = color =>{
+        localStorage.setItem("color", color)
         setColour(color)
+        window.location.reload()
+        
     }
 
     const handelTheme = e =>{
@@ -34,6 +46,8 @@ const LeftSideNav = ({children}) => {
             setTheme("dark")
         }
     }
+
+    
 
     useEffect(()=>{
 
@@ -52,32 +66,31 @@ const LeftSideNav = ({children}) => {
         <ColourContext.Provider value={contextInfo}>
         <ul className='space-y-2 fixed -left-3 top-6'>
             
-            {/* <li className='w-14 h-14 bg-black text-white text-opacity-60 rounded-md flex items-center justify-center'><MdOutlineSettingsSuggest className='text-4xl '/></li> */}
-            <li>
-            <div className="drawer drawer-end">
-  <input id="my-drawer" type="checkbox" className="drawer-toggle" />
-  <div className="drawer-content">
-    {/* Page content here */}
-    <label htmlFor="my-drawer" className="btn w-14 h-14  bg-black text-white text-opacity-60 rounded-md  drawer-button"><MdOutlineSettingsSuggest className='text-4xl w-20 '/></label>
-  </div> 
-  <div className="drawer-side">
-    <label htmlFor="my-drawer" className="drawer-overlay"></label>
-    <div className="menu p-4 w-52 h-44 mt-6 z-50 bg-base-200 text-base-content rounded-md grid grid-cols-4">
-      {/* Sidebar content here */}
-     <img src={blue} onClick={()=>handleColour("#8477B6")} className='w-8' alt="" />
-     <img src={blueviolet} onClick={()=> setColour("#8A2BE2")} className='w-8' alt="" />
-     <img src={goldenrod} onClick={()=> setColour("#DAA520")} className='w-8' alt="" />
-     <img src={green} onClick={()=> setColour("#72B526")}  className='w-8' alt="" />
-     <img src={magenta} onClick={()=> setColour("#8A2BE2")} className='w-8' alt="" />
-     <img src={orange} onClick={()=> setColour("#FA5A0F")} className='w-8' alt="" />
-     <img src={purple} onClick={()=> setColour("#EF6293")} className='w-8' alt="" />
-     <img src={red} onClick={()=> setColour("#F72B1D")} className='w-8' alt="" />
-     <img src={yellow} onClick={()=> setColour("#FFB300")} className='w-8'  alt="" />
-     <img src={yellowgreen} onClick={()=> setColour("#99CD32")} className='w-8' alt="" />
-    </div>
-  </div>
-</div>
-            </li>
+            <li className='w-14 h-14 bg-black text-white text-opacity-60 rounded-md flex items-center justify-center'><MdOutlineSettingsSuggest onClick={()=> setShow(!show)} className='text-4xl '/></li>
+             
+        
+                
+            {
+                <div className={`absolute -left-96 top-0 ${show && "left-16 duration-300"} `}>
+                    <div className="card w-96 h-36 bg-base-100 shadow-xl">
+                     <div className="card-body grid grid-cols-5">
+                     <img src={blue} onClick={()=> handleColour("#4169e1")} className='w-8' alt="" />
+                     <img src={blueviolet} onClick={()=>handleColour("#6856ae")} className='w-8' alt="" />
+                     <img src={goldenrod} onClick={()=>handleColour("#d9a520")} className='w-8' alt="" />
+                     <img src={green} onClick={()=>setColour("#72b526")} className='w-8' alt="" />
+                     <img src={magenta} onClick={()=>handleColour("#FF3CAC")} className='w-8' alt="" />
+                     <img src={orange} onClick={()=>handleColour("#fa5a0f")} className='w-8' alt="" />
+                     <img src={purple} onClick={()=>handleColour("#6856ae")} className='w-8' alt="" />
+                     <img src={red} onClick={()=>handleColour("#f72b1d")} className='w-8' alt="" />
+                     <img src={yellow} onClick={()=>handleColour("#ffb300")} className='w-8' alt="" />
+                     <img src={yellowgreen} onClick={()=>handleColour("#d9a520")} className='w-8' alt="" />
+                    </div>
+                    </div>
+                    
+                    
+                     </div>
+            }    
+         
 
             <li className='w-14 h-14 bg-black text-white text-opacity-60 rounded-md flex items-center justify-center'><label className="swap swap-rotate z-10">
   

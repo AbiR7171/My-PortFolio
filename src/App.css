@@ -6,3 +6,12 @@
 .font-col{
   background: linear-gradient(225deg, #FF3CAC 0%, #784BA0 50%, #2B86C5 100%);
 }
+
+/* .window{
+
+  background-image:url(../src/assets/SS/toyCenter1.png),url(../src/assets/SS/toy2.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: left top, left center;
+  height: 19rem;
+} */

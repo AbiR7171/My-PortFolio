@@ -4,6 +4,8 @@ import Particles from "react-tsparticles";
 import { loadFull } from "tsparticles";
 
 const Partcles = () => {
+
+    const color = localStorage.getItem("color")
     
     const particlesInit = useCallback(async engine => {
         console.log(engine);
@@ -48,10 +50,10 @@ const Partcles = () => {
                 },
                 particles: {
                     color: {
-                        value: "#FF3CAC",
+                        value: `${color ? color :"#FF3CAC" }`,
                     },
                     links: {
-                        color: "#784BA0",
+                        color: `${color ? color :"#FF3CAC" }`,
                         distance: 150,
                         enable: true,
                         opacity: 0.5,
