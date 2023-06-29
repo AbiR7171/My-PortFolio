@@ -5,7 +5,7 @@ import { MdWork, MdMessage } from "react-icons/md";
 
 const RightSideNav = () => {
     return (
-       <div className='absolute top-1/3 lg:right-8 right-4 font-serif'>
+       <div className='fixed z-50 top-1/3 lg:right-8 right-4 font-serif'>
 
         <ul className='space-y-2'>
 
