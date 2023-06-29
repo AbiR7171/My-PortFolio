@@ -5,7 +5,6 @@ import { TypeAnimation } from 'react-type-animation';
 import animation2 from "../assets/LottieAnimation/130620-coding.json"
 import animation3 from "../assets/LottieAnimation/animation3 (1).json"
 import animation4 from "../assets/LottieAnimation/animation3 (2).json"
-import { Link } from 'react-router-dom';
 import { ColourContext } from './LeftSideNav';
 
 const Home = () => {
@@ -14,7 +13,7 @@ const Home = () => {
 
    
     return (
-        <div className='font-serif flex items-center justify-center p-12'>
+        <div className='font-serif lg:flex items-center justify-center lg:p-12 p-2'>
             <div className='w-1/2'>
                 <h2 style={{color:`${colour}`}} className="text-3xl">Hi <span className='text-white'>I'M</span> </h2> 
                 <h3  className={`text-5xl uppercase`}>Yeasin Emtiag</h3>
@@ -41,7 +40,7 @@ const Home = () => {
      webpage template. I want to be a super performing MERN Stack
      Developer. 
     </p>
-    <a className='font-col p-4 rounded-md mt-2 flex  items-center gap-1 w-1/3'  href="/public/Resume/Yeasn emtiag abir Resuem3.pdf" download > <FaDownload/> Download Resume</a>
+    <a className='font-col p-4 rounded-md mt-2 flex  items-center gap-1 lg:w-1/3'  href="/public/Resume/Yeasn emtiag abir Resuem3.pdf" download > <FaDownload/> Download Resume</a>
             </div>
             <div className='me-20 p-4'>
             <Lottie animationData={animation4} loop={true} />

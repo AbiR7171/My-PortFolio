@@ -1,7 +1,8 @@
 import React from 'react';
-import { FaHome  } from "react-icons/fa";
+import { FaHome,FaReact  } from "react-icons/fa";
 import { CgProfile } from "react-icons/cg";
 import { MdWork, MdMessage } from "react-icons/md";
+import { Icon } from '@iconify/react';
 
 const RightSideNav = () => {
     return (
@@ -15,6 +16,9 @@ const RightSideNav = () => {
 
            <li  className={`flex items-center justify-center lg:w-14 lg:h-14  w-8 h-8 rounded-full bg-base-200 text-black  `}>
             <CgProfile title='Profile' className={`lg:text-3xl  hover:text-red-700`}/>
+           </li>
+           <li  className={`flex items-center justify-center lg:w-14 lg:h-14  w-8 h-8 rounded-full bg-base-200 text-black  `}>
+           <FaReact title='Skills' className={`lg:text-3xl  hover:text-red-700`}/>
            </li>
 
            <li  className={`flex items-center justify-center lg:w-14 lg:h-14  w-8 h-8 rounded-full bg-base-200 text-black  `}>

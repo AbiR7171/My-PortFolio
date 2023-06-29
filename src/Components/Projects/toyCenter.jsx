@@ -13,8 +13,8 @@ const ToyCenter = () => {
        <div>
         <p className="text-2xl uppercase text font-serif font-bold text-center mb-2">Toy Center</p>
         <p style={{backgroundColor:`${color ? color : "#FF3CAC"}`}}  className='divider w-1/5 mx-auto  h-1 rounded mb-10'/>
-         <div className='container mx-auto flex gap-5 font-serif'>
-            <div style={{boxShadow:`1px 1px 1px 2px  ${color ? color : "#FF3CAC"}`}} className="mockup-code bg-black   w-2/3">
+         <div className='container mx-auto lg:flex gap-5 font-serif p-2'>
+            <div style={{boxShadow:`1px 1px 1px 2px  ${color ? color : "#FF3CAC"}`}} className="mockup-code bg-black   lg:w-2/3">
             <p style={{color:`${color ? color : "#FF3CAC"}`}} className='ms-10  text-2xl'>Toy MarketPlace</p>
             <p className='ms-10 underline mt-2 text-orange-500'>Key Feature</p>
             <p className='ms-10'><p> 1.You can add, delete and update toys from here.</p></p> 

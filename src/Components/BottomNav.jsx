@@ -10,17 +10,17 @@ const BottomNav = () => {
         <div className='fixed z-20 bottom-7  right-1/2'>
            <ul className="menu menu-horizontal bg-base-200 rounded-box mt-6 ">
   <li>
-    <a href='https://www.facebook.com/emtiag.abir/' target='_blank' className="tooltip" data-tip="Home">
+    <a href='https://www.facebook.com/emtiag.abir/' target='_blank' className="tooltip" data-tip="facebook">
      <img src={facebook} className='w-5 h-5' alt="" />
     </a>
   </li>
   <li>
-    <a href='https://www.linkedin.com/in/emtiaz-abir-8b500a232/' target='_blank' className="tooltip" data-tip="Details">
+    <a href='https://www.linkedin.com/in/emtiaz-abir-8b500a232/' target='_blank' className="tooltip" data-tip="Github">
     <img src={github} className='w-5 h-5' alt="" />
     </a>
   </li>
   <li>
-    <a href='https://github.com/AbiR7171' target='_blank'  className="tooltip" data-tip="Stats">
+    <a href='https://github.com/AbiR7171' target='_blank'  className="tooltip" data-tip="Linkedin">
     <img src={linkedin} className='w-5 h-5' alt="" />
     </a>
   </li>
