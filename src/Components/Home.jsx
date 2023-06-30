@@ -14,7 +14,7 @@ const Home = () => {
    
     return (
         <div className='font-serif lg:flex items-center justify-center lg:p-12 p-2'>
-            <div data-aos="fade-right" data-aos-duration="3000" className='w-1/2'>
+            <div data-aos="fade-right"  data-aos-duration="2000"  className='w-1/2'>
                 <h2 style={{color:`${colour}`}} className="text-3xl">Hi <span className='text-black'>I'M</span> </h2> 
                 <h3  className={`text-5xl uppercase`}>Yeasin Emtiag</h3>
                  <p style={{color:`${colour}`}}> <TypeAnimation
@@ -42,7 +42,7 @@ const Home = () => {
     </p>
     <a className='font-col p-4 rounded-md mt-2 flex  items-center gap-1 lg:w-1/3'  href="/public/Resume/Yeasn emtiag abir Resuem3.pdf" download > <FaDownload/> Download Resume</a>
             </div>
-            <div data-aos="fade-left" data-aos-duration="3000" className='w-1/2'>
+            <div data-aos="fade-left"   className='w-1/2'>
             <Lottie animationData={animation4} loop={true} />
             </div>
         </div>

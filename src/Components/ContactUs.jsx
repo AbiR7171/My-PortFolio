@@ -38,7 +38,7 @@ export const ContactUs = () => {
     
     <h4 className="text-6xl text-center  mt-20 text font-serif font-bold">Contact Me</h4>
      <div className='lg:flex   items-center'>
-     <div data-aos="fade-right" data-aos-duration="3000" style={{boxShadow:`1px 1px 1px 2px  ${color ? color : "#FF3CAC"}`}}  className=' lg:w-1/2 border-0 p-4 rounded-lg bg-black text-white mx-auto'>
+     <div data-aos="fade-right"  style={{boxShadow:`1px 1px 1px 2px  ${color ? color : "#FF3CAC"}`}}  className=' lg:w-1/2 border-0 p-4 rounded-lg bg-black text-white mx-auto'>
     <form ref={form} onSubmit={sendEmail}>
       <label>Name</label>
       <input placeholder='Your Name' className="input input-bordered input-error w-full block mt-2 mb-2"  type="text" name="user_name" />
@@ -49,7 +49,7 @@ export const ContactUs = () => {
       <input className='font-col bg-gradient-to-r from-violet-500 to-fuchsia-500 btn px-10 mt-6' type="submit" value="Send Message" /><Icon className='-mt-14 ms-44 text-6xl text-[#ff3CAC]' icon="bi:send-fill" />
     </form>
     </div>
-    <div data-aos="fade-left" data-aos-duration="3000" className='lg:w-1/2 '>
+    <div data-aos="fade-left"  className='lg:w-1/2 '>
     <Lottie animationData={animation} loop={true} />
     </div>
      </div>

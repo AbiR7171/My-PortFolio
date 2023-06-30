@@ -3,6 +3,15 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+body, html{
+  max-width: 100%;
+  overflow-x: hidden;
+  -webkit-overflow-x:hidden;
+  -moz-overflow-x:hidden;
+  -o-overflow-x:hidden;
+  -ms-overflow-x:hidden;
+}
 .font-col{
   background: linear-gradient(225deg, #FF3CAC 0%, #784BA0 50%, #2B86C5 100%);
 }

@@ -64,7 +64,7 @@ const LeftSideNav = ({children}) => {
     
     return (
         <ColourContext.Provider value={contextInfo}>
-        <ul className='space-y-2 fixed -left-3 top-6 z-20'>
+        <ul data-aos="fade-down" data-aos-duration="3000" className='space-y-2 fixed -left-3 top-6 z-20'>
             
             <li title='Choose Your Favorite Colour' className='w-14 h-14 bg-black text-white text-opacity-60 rounded-md flex items-center justify-center'><MdOutlineSettingsSuggest onClick={()=> setShow(!show)} className='text-4xl '/></li>
              
