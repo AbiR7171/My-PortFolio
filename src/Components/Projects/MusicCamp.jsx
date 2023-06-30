@@ -14,7 +14,7 @@ const MusicCamp = () => {
         <p className="text-2xl uppercase text font-serif font-bold text-center mb-2">Music camp</p>
         <p style={{backgroundColor:`${color ? color : "#FF3CAC"}`}}  className='divider w-1/5 mx-auto  h-1 rounded mb-10'/>
          <div className='container mx-auto lg:flex flex-row-reverse gap-5 font-serif p-4'>
-            <div style={{boxShadow:`1px 1px 1px 2px  ${color ? color : "#FF3CAC"}`}} className="mockup-code bg-black    lg:w-2/5">
+            <div data-aos="fade-left" data-aos-duration="3000" style={{boxShadow:`1px 1px 1px 2px  ${color ? color : "#FF3CAC"}`}} className="mockup-code bg-black    lg:w-2/5">
             <p style={{color:`${color ? color : "#FF3CAC"}`}} className='ms-10  text-2xl'>Summer camp Music school</p>
             <p className='ms-10 underline mt-2 text-orange-500'>Key Feature</p>
             <p className='ms-10'><p> 1.Role management: Admin can assign admin and instructor
@@ -42,7 +42,7 @@ const MusicCamp = () => {
                   <a className='flex items-center btn btn-sm bg-red-700 text-white border-0'target='_blank'  href="https://music-camp-86339.web.app/">Live Site <Icon icon="iconoir:arrow-tr" /> </a>
                 </div>
           </div>
-           <a href="https://music-camp-86339.web.app/" target='_blank'>
+           <a data-aos="fade-right" data-aos-duration="3000" href="https://music-camp-86339.web.app/" target='_blank'>
            <div style={{boxShadow:`1px 1px 1px 3px  ${color ? color : "#FF3CAC"}`}}  className="mockup-window border bg-red-300  w-full  h-[420px]">
             <div  className="flex justify-center  bg-red-200 flex-col "> 
                <div className='w-full h-44  hover:-translate-y-[2500px] duration-1000'>

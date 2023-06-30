@@ -7,6 +7,7 @@ import BottomNav from '../Components/BottomNav';
 import Project from '../Components/Projects/Project';
 import MySkills from '../Components/MySkills';
 import { ContactUs } from '../Components/ContactUs';
+import AboutMe from '../Components/AboutMe';
 
 const MainLayout = () => {
     return (
@@ -16,6 +17,7 @@ const MainLayout = () => {
             <LeftSideNav/>
             <BottomNav/>
             <Home/>
+            <AboutMe/>
             <MySkills/>
            <Project/>
            <ContactUs/>

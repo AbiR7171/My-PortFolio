@@ -66,7 +66,7 @@ const LeftSideNav = ({children}) => {
         <ColourContext.Provider value={contextInfo}>
         <ul className='space-y-2 fixed -left-3 top-6 z-20'>
             
-            <li className='w-14 h-14 bg-black text-white text-opacity-60 rounded-md flex items-center justify-center'><MdOutlineSettingsSuggest onClick={()=> setShow(!show)} className='text-4xl '/></li>
+            <li title='Choose Your Favorite Colour' className='w-14 h-14 bg-black text-white text-opacity-60 rounded-md flex items-center justify-center'><MdOutlineSettingsSuggest onClick={()=> setShow(!show)} className='text-4xl '/></li>
              
         
                 
@@ -92,7 +92,7 @@ const LeftSideNav = ({children}) => {
             }    
          
 
-            <li className='w-14 h-14 bg-black text-white text-opacity-60 rounded-md flex items-center justify-center'><label className="swap swap-rotate z-10">
+            <li title='Dark Mode Recommended' className='w-14 h-14 bg-black text-white text-opacity-60 rounded-md flex items-center justify-center'><label className="swap swap-rotate z-10">
   
   {/* this hidden checkbox controls the state */}
   <input type="checkbox" onChange={handelTheme}/>

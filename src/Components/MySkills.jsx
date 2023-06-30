@@ -24,7 +24,7 @@ const MySkills = () => {
                 <Icon className='text-9xl w-32 rounded-lg' icon="skill-icons:vscode-dark" />
                 <Icon className='text-9xl w-32 rounded-lg' icon="logos:jwt" />
                 <Icon className='text-9xl w-32 rounded-lg me-4' icon="logos:npm" />
-                <Icon className='text-9xl w-32 text-green-500 rounded-lg me-4' icon="uil:lottiefiles-alt" />
+                <Icon  className='text-9xl w-32 text-green-500 rounded-lg me-4' icon="uil:lottiefiles-alt" />
                 </div>
             </Marquee>
         </div>
