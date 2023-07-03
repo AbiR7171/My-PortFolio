@@ -12,7 +12,7 @@ import AboutMe from '../Components/AboutMe';
 const MainLayout = () => {
     return (
         <div>
-            <Partcles/>
+            <Partcles />
             <RightSideNav/>
             <LeftSideNav/>
             <BottomNav/>

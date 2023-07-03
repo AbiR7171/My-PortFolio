@@ -9,11 +9,11 @@ const AboutMe = () => {
     
 
     return (
-        <div >
+        <div id="AboutMe" className='z-20'>
             <h4 className="text-6xl text-center mb-10 mt-10 text font-serif font-bold">About Me</h4>
             <div className='lg:flex gap-4 container mx-auto'>  
             <div data-aos="fade-right" >
-              <img className='rounded-md w-full' src={moduleName} alt="" />
+              <img className='rounded-md w-full z-20' src={moduleName} alt="" />
             </div>
             <div data-aos="fade-left"   className='lg:flex items-center gap-7 p-3 font-serif '>
                 <div className='space-y-3'>

@@ -34,7 +34,7 @@ export const ContactUs = () => {
     });
 };
   return (
-   <div className='mt-10  font-serif lg:ms-10 '>
+   <div id='ContactMe' className='mt-10  font-serif lg:ms-10 '>
     
     <h4 className="text-6xl text-center  mt-20 text font-serif font-bold">Contact Me</h4>
      <div className='lg:flex   items-center'>

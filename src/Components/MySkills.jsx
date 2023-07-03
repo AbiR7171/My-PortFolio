@@ -4,7 +4,7 @@ import { Icon } from '@iconify/react';
 
 const MySkills = () => {
     return (
-        <div>
+        <div id='MySkill'>
             <div>
                 <h4 className="text-6xl text-center mb-10 mt-10 text font-serif font-bold">My Skills</h4>
             </div>

@@ -20,11 +20,17 @@ const Partcles = () => {
     }, []);
 
     return (
-               <Particles
+  <div>
+                 <Particles
             id="tsparticles"
             init={particlesInit}
             loaded={particlesLoaded}
             options={{
+                background: {
+                    color: {
+                        value: "none",
+                    },
+                },
                 fpsLimit: 120,
                 interactivity: {
                     events: {
@@ -44,7 +50,7 @@ const Partcles = () => {
                         },
                         repulse: {
                             distance: 200,
-                            duration: 0.2,
+                            duration: 0.5,
                         },
                     },
                 },
@@ -75,7 +81,7 @@ const Partcles = () => {
                     number: {
                         density: {
                             enable: true,
-                            area: 600,
+                            area: 1000,
                         },
                         value: 80,
                     },
@@ -92,6 +98,7 @@ const Partcles = () => {
                 detectRetina: true,
             }}
         />
+  </div>
     );
 };
 
