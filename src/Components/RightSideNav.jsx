@@ -8,7 +8,7 @@ const RightSideNav = () => {
     return (
        <div className='fixed z-50 top-1/3 lg:right-8 right-4 font-serif hidden lg:block'>
 
-        <ul className='space-y-2'>
+        <ul className='flex flex-col gap-3'>
 
           <a href="#Home">
           <li data-aos="fade-up" data-aos-duration="3000"   className={`flex items-center justify-center lg:w-14 lg:h-14 w-8 h-8 rounded-full bg-base-200 text-black  `}>

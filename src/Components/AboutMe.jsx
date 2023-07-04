@@ -12,10 +12,10 @@ const AboutMe = () => {
         <div id="AboutMe" className='z-20'>
             <h4 className="text-6xl text-center mb-10 mt-10 text font-serif font-bold">About Me</h4>
             <div className='lg:flex gap-4 container mx-auto'>  
-            <div data-aos="fade-right" >
-              <img className='rounded-md w-full z-20' src={moduleName} alt="" />
+            <div style={{boxShadow:`1px 1px 1px 2px  ${color ? color : "#FF3CAC"}`}} className='rounded-md bg-black '>
+              <img  className=' w-full h-72' src={moduleName} alt="" />
             </div>
-            <div data-aos="fade-left"   className='lg:flex items-center gap-7 p-3 font-serif '>
+            <div   className='lg:flex items-center gap-7 p-3 font-serif '>
                 <div className='space-y-3'>
                 <div  className='flex items-center gap-2'> <p style={{boxShadow:`1px 1px 1px 2px  ${color ? color : "#FF3CAC"}`, color: `${color ? color : "#FF3CAC"}`}}  className='rounded-full text-2xl  bg-black w-12  h-12  flex items-center justify-center'><GiRotaryPhone /></p> <span className='text-gray-500 text-[20px]'>+8801839891065</span> </div>
 

@@ -14,7 +14,7 @@ const ChefMaster = () => {
         <p className="text-2xl uppercase text font-serif font-bold text-center mb-2">Chef Master</p>
         <p style={{backgroundColor:`${color ? color : "#FF3CAC"}`}}  className='divider w-1/5 mx-auto  h-1 rounded mb-10'/>
          <div className='container mx-auto lg:flex  gap-5 font-serif p-4'>
-            <div data-aos="fade-right"  style={{boxShadow:`1px 1px 1px 2px  ${color ? color : "#FF3CAC"}`}} className="mockup-code bg-black   lg:w-3/5">
+            <div   style={{boxShadow:`1px 1px 1px 2px  ${color ? color : "#FF3CAC"}`}} className="mockup-code bg-black rounded-lg  lg:w-3/5">
             <p style={{color:`${color ? color : "#FF3CAC"}`}} className='ms-10  text-2xl'>Chef Master Restaurant</p>
             <p className='ms-10 underline mt-2 text-orange-500'>Key Feature</p>
             <p className='ms-10'><p> 1.In The Home Page You Can See About Our chefs..</p></p> 
@@ -37,8 +37,8 @@ const ChefMaster = () => {
                   <a className='flex items-center btn btn-sm bg-red-700 text-white border-0'target='_blank'  href="https://chef-master-3fdfd.web.app/">Live Site <Icon icon="iconoir:arrow-tr" /> </a>
                 </div>
           </div>
-           <a data-aos="fade-left"  href="https://chef-master-3fdfd.web.app/" target='_blank'>
-           <div style={{boxShadow:`1px 1px 1px 3px  ${color ? color : "#FF3CAC"}`}}  className="mockup-window border bg-red-300  w-full  h-[420px]">
+           <a   href="https://chef-master-3fdfd.web.app/" target='_blank'>
+           <div style={{boxShadow:`1px 1px 1px 3px  ${color ? color : "#FF3CAC"}`}}  className="mockup-window border bg-red-300  w-full  h-[420px] rounded-lg">
             <div  className="flex justify-center  bg-red-200 flex-col "> 
                <div className='w-full h-44  hover:-translate-y-[900px] hover:duration-1000'>
                <img src={pic1} className='w-full ' alt="" />

@@ -42,7 +42,7 @@ const Home = () => {
     </p>
     <a className='font-col p-4 rounded-md mt-2 flex  items-center gap-1 lg:w-1/3 z-50'  href="/public/Resume/Yeasn emtiag abir Resuem3.pdf" download > <FaDownload/> Download Resume</a>
             </div>
-            <div data-aos="fade-left"   className='lg:w-1/2'>
+            <div   className='lg:w-1/2'>
             <Lottie animationData={animation4} loop={true} />
             </div>
         </div>

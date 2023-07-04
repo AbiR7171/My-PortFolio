@@ -18,7 +18,7 @@ export const ColourContext = createContext()
 
 const LeftSideNav = ({children}) => {
 
-    const[theme, setTheme]=useState(localStorage.getItem("theme") ? localStorage.getItem("theme"): "dark")
+    const[theme, setTheme]=useState(localStorage.getItem("theme") ? localStorage.getItem("theme"): "black")
 
     const[colour, setColour]=useState(localStorage.getItem("color")? localStorage.getItem("color") : "#FF3CAC")
     console.log(colour);
@@ -43,7 +43,7 @@ const LeftSideNav = ({children}) => {
             setTheme("light")
         }
         else{
-            setTheme("dark")
+            setTheme("black")
         }
     }
 

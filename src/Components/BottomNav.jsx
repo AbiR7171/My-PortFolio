@@ -7,8 +7,8 @@ const BottomNav = () => {
     const theme = localStorage.getItem("theme")
     
     return (
-        <div className='fixed z-20 bottom-7  right-1/2'>
-           <ul className="menu menu-horizontal bg-base-200 rounded-box mt-6 ">
+        <div className='fixed z-20 bottom-7  right-1/2 '>
+           <ul className="menu menu-horizontal bg-base-200 rounded-lg mt-6 ">
   <li>
     <a href='https://www.facebook.com/emtiag.abir/' target='_blank' className="tooltip" data-tip="facebook">
      <img src={facebook} className='w-5 h-5' alt="" />

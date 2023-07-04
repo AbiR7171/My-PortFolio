@@ -15,7 +15,7 @@ import LeftSideNav from './Components/LeftSideNav.jsx';
 const router = createBrowserRouter([
   {
     path: "/",
-    element: <LoadingAnimation><MainLayout/></LoadingAnimation>
+    element: <MainLayout/>
   },
 ]);
 
