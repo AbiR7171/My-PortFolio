@@ -10,7 +10,7 @@ const MySkills = () => {
             </div>
             <Marquee>
                 <div className='flex items-center gap-10 mb-20 mt-10'>
-                <div className='glassCss rounded-lg'><Icon className='text-9xl w-32' icon="logos:html-5" /></div>
+                <div className='glassCss rounded-lg ms-10'><Icon className='text-9xl w-32' icon="logos:html-5" /></div>
                 <div className='rounded-lg glassCss'><Icon className='text-9xl w-32 rounded-lg' icon="logos:css-3" /></div>
                 <div className='glassCss rounded-lg'><Icon className='text-9xl w-32 rounded-lg' icon="devicon:bootstrap-wordmark" /></div>
                <div className='glassCss rounded-lg'> <Icon className='text-9xl w-32 rounded-lg' icon="skill-icons:tailwindcss-dark" /></div>
