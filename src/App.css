@@ -21,6 +21,10 @@ body, html{
   -webkit-text-fill-color: transparent;
 }
 
+.glassCss{
+  background: rgba(255, 255, 255, 0.5);
+  padding: 20px;
+}
 
 /* .window{
 
