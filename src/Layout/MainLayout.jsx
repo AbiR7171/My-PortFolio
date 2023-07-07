@@ -13,7 +13,8 @@ const MainLayout = () => {
     return (
         <div>
             <Partcles />
-            <RightSideNav/>
+           <div className='mockup-window'>
+           <RightSideNav/>
             <LeftSideNav/>
             <BottomNav/>
             <Home/>
@@ -21,6 +22,7 @@ const MainLayout = () => {
             <MySkills/>
            <Project/>
            <ContactUs/>
+           </div>
         </div>
     );
 };

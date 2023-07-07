@@ -12,7 +12,7 @@ const AboutMe = () => {
         <div id="AboutMe" className=''>
             <h4 className="text-6xl text-center mb-10 mt-10 text font-serif font-bold">About Me</h4>
             <div className='lg:flex gap-4 container mx-auto'>  
-            <div style={{boxShadow:`1px 1px 1px 2px  ${color ? color : "#FF3CAC"}`}} className='rounded-md mockup-window '>
+            <div  className='rounded-md  '>
               <img  className=' w-full h-80' src={moduleName} alt="" />
             </div>
             <div   className='lg:flex items-center gap-7 p-3 font-serif '>

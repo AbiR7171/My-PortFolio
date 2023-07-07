@@ -39,7 +39,7 @@ const ToyCenter = () => {
                   <a className='flex items-center btn btn-sm bg-red-700 text-white border-0'target='_blank'  href="https://github.com/AbiR7171/Toy-center-server.git">Live Site <Icon icon="iconoir:arrow-tr" /> </a>
                 </div>
           </div>
-           <a dat-aos="fade-left"  href="https://tay-center-auth.web.app/" target='_blank'>
+           <a data-aos="fade-left" href="https://tay-center-auth.web.app/" target='_blank'>
            <div style={{boxShadow:`1px 1px 1px 3px  ${color ? color : "#FF3CAC"}`}}  className="mockup-window border bg-red-300  w-4/4 h-96 rounded-lg">
             <div  className="flex justify-center  bg-red-200 flex-col "> 
                <div className='w-full h-44  hover:-translate-y-[1200px] duration-1000'>
