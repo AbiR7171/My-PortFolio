@@ -23,7 +23,45 @@ body, html{
 
 .glassCss{
   background: rgba(255, 255, 255, 0.5);
-  padding: 20px;
+  -webkit-clip-path: polygon(0 0, 0 100%, 100% 100%, 100% 25%, 70% 0);
+  clip-path: polygon(0 0, 0 100%, 100% 100%, 90% 25%, 50% 0);
+  padding: 30px;
+}
+
+.html{
+  background-image: linear-gradient(to top, #870000, #190a05);
+}
+
+.css{
+  background-image: radial-gradient( circle farthest-corner at 22.4% 21.7%, rgb(1, 89, 107) 0%, rgb(2, 27, 58) 100.2% );
+}
+
+.boostrap{
+  background: linear-gradient(to top, rgba(106, 17, 203, 0.9), rgba(37, 117, 252, 0.9));
+}
+
+.tailwind{
+  background-image: linear-gradient(to top, #012027, #03475e);
+}
+
+.js{
+  background-image: linear-gradient(to top, #504e02, #6a5901);
+}
+.react{
+  background-image: linear-gradient(to top,#000428, #004e92);
+}
+.node{
+  background-image: linear-gradient(to top, #012712, #013c01f9);
+}
+
+.ex{
+  background-image: linear-gradient(to top, #434343 0%, black 100%);
+}
+.axios{
+  background-image: linear-gradient(to top, #010a22, #3f2b96);
+}
+.jwt{
+  background-image: linear-gradient(to top, #210301, #042f60fb);
 }
 
 /* .window{

@@ -13,7 +13,7 @@ const Home = () => {
 
    
     return (
-        <div id='Home' className='font-serif lg:flex items-center justify-center lg:p-12 p-2 z-20'>
+        <div id='Home' className='font-serif lg:flex items-center justify-center lg:py-12 lg:px-20 p-2 z-20'>
             <div  className='lg:w-1/2'>
                 <h2 style={{color:`${colour}`}} className="text-3xl">Hi <span className='text'>I'M</span> </h2> 
                 <h3  className={`text-5xl uppercase`}>Yeasin Emtiag</h3>
