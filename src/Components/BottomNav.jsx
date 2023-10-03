@@ -15,12 +15,14 @@ const BottomNav = () => {
     </a>
   </li>
   <li>
-    <a href='https://www.linkedin.com/in/emtiaz-abir-8b500a232/' target='_blank' className="tooltip" data-tip="Github">
+
+  
+    <a href='https://github.com/AbiR7171' target='_blank' className="tooltip" data-tip="Github">
     <img src={github} className='w-5 h-5' alt="" />
     </a>
   </li>
   <li>
-    <a href='https://github.com/AbiR7171' target='_blank'  className="tooltip" data-tip="Linkedin">
+    <a href='https://www.linkedin.com/in/emtiaz-abir-8b500a232/' target='_blank'  className="tooltip" data-tip="Linkedin">
     <img src={linkedin} className='w-5 h-5' alt="" />
     </a>
   </li>

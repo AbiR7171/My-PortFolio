@@ -40,7 +40,7 @@ const Home = () => {
      webpage template. I want to be a super performing MERN Stack
      Developer. 
     </p>
-    <a className='font-col p-4 rounded-md mt-2 flex  items-center gap-1 lg:w-1/3 z-50'  href="../public/Resume/Yeasn emtiag abir Resuem3.pdf" download > <FaDownload/> Download Resume</a>
+    <a className='font-col justify-center text-white  p-4 rounded-md mt-2 flex  items-center gap-1 lg:w-1/3 z-50'  href="https://drive.google.com/file/d/16Fqr-zQNEPAGVjzayFRbJIxYDWj4pIUa/view?usp=sharing" target='_blank' >Resume</a>
             </div>
             <div   className='lg:w-1/2'>
             <Lottie animationData={animation4} loop={true} />
